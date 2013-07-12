@@ -4,7 +4,10 @@ public class Main {
     // if a multiple of 5 output buzz and if both a multiple of 3 and 5
     // output fizzbuzz.
     public static void main(String[] args) {
-        for (int i = 1; i <= 100; i++) {
+        int startHere = 1;
+        int endHere  = 100;
+
+        for (int i = startHere; i <= endHere; i++) {
 
             if ((i % 3 == 0) && (i % 5 == 0)) {
                 System.out.println("fizzbuzz");
